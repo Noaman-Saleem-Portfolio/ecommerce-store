@@ -51,7 +51,7 @@ function Menubar() {
               className={styles.menubarLink}
             >
               <BsCart className={styles.cartIcon} />
-              <span className={styles.cartQuanitity}>10</span>
+              <span className={styles.cartQuanitity}>0</span>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
