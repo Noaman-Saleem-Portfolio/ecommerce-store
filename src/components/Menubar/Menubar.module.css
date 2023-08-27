@@ -1,0 +1,55 @@
+.navbarBackground{
+    background-color: #f7f8fb;
+}
+
+.brand{
+    background-color: #4d6ff0;
+    color: white;
+    padding: 0px 2px;
+    outline: 1px solid black;
+    outline-offset: 1px;
+}
+
+.menubarLink{
+    color: #6e6e72;
+    /* font-weight: bold; */
+}
+
+.cartIcon{
+    position: relative;
+    font-size: 20px;
+    /* color: red; */
+}
+
+.cartQuanitity{
+background-color: #8e99e5;
+border-radius: 50%;
+font-size: 12px;
+/* padding: 3px; */
+width: 15px;
+height: 15px;
+color: white;
+position: absolute;
+top: 5px;
+right: 2px;
+}
+
+.menubarLink:hover{
+    color: #6e6e72;
+}
+
+.menubarLink:global(.active) {
+    background-color: #e1e1e4;
+}
+
+.bread:focus{
+    box-shadow: none;
+    /* background-color: pink; */
+}
+
+@media screen and (max-width: 992px) {
+    .cartQuanitity {
+        right:10px;
+        /* background-color: tomato; */
+    }
+}
